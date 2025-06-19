@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello World from Azure App Service!');
+  res.send('Hello World from Azure App Service! this is the new version 1.0');
 });
 
 app.listen(port, () => {
