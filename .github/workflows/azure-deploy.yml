@@ -27,6 +27,6 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'hello-node-azure'  # Replace with your App Service name
+        app-name: 'new-app'  # Replace with your App Service name
         publish-profile: ${{ secrets.AAZUREAPPSERVICE_PUBLISHPROFILE_00522DD4A4AE4E8BA70F89E5F8CEDA80 }}
         package: .
